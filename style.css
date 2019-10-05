@@ -1,0 +1,60 @@
+#body{
+    margin: 0;
+}
+.header-image{
+    background-image: url(https://res.cloudinary.com/moyin/image/upload/v1570277291/stock-photo-adult-formal-woman-in-sunglasses-and-hardhat-using-tablet-standing-in-sunlight-on-background-of-1215397843_1.png);
+    height: 100vh;
+    margin: 0 auto;
+    
+}
+.pb-2{
+    padding-bottom: 2rem;
+}
+.d-flx{
+    display: flex;
+}
+.j-c-sb{
+    justify-content: space-between;
+}
+.d-grd{
+    display: grid;
+    grid-gap: 10px;
+}
+.rave-container{
+    padding: 1rem 2rem
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2rem;
+    width: 700px
+}
+
+.profile-picture{
+    height: 100px;
+}
+
+.profile-button{
+    border: none;
+    background-color: #4873BC;
+    padding: 0.5rem 2rem;
+    font-weight: 400;
+    font-size: 2rem;
+    height: 60px;
+}
+
+.notification{
+    display: grid;
+    grid-gap: 5px;
+}
+
+.btn-3{
+    width: 300px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #0077C6;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px
+}
