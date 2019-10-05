@@ -1,41 +1,52 @@
-#body{
+#body {
     margin: 0;
 }
-.header-image{
+
+.header-image {
     background-image: url(https://res.cloudinary.com/moyin/image/upload/v1570277291/stock-photo-adult-formal-woman-in-sunglasses-and-hardhat-using-tablet-standing-in-sunlight-on-background-of-1215397843_1.png);
     height: 100vh;
     margin: 0 auto;
-    
+
 }
-.pb-2{
+
+.pb-2 {
     padding-bottom: 2rem;
 }
-.d-flx{
+
+.txt-c {
+    text-align: center;
+}
+
+.d-flx {
     display: flex;
 }
-.j-c-sb{
+
+.j-c-sb {
     justify-content: space-between;
 }
-.d-grd{
+
+.d-grd {
     display: grid;
     grid-gap: 10px;
 }
-.rave-container{
+
+.rave-container {
     padding: 1rem 2rem
 }
-.profile{
+
+.profile {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 2rem;
-    width: 700px
+    width: 900px
 }
 
-.profile-picture{
+.profile-picture {
     height: 100px;
 }
 
-.profile-button{
+.profile-button {
     border: none;
     background-color: #4873BC;
     padding: 0.5rem 2rem;
@@ -44,12 +55,12 @@
     height: 60px;
 }
 
-.notification{
+.notification {
     display: grid;
     grid-gap: 5px;
 }
 
-.btn-3{
+.btn-3 {
     width: 300px;
     height: 50px;
     background: #FFFFFF;
@@ -57,4 +68,17 @@
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px
+}
+
+.btn-4 {
+    width: 300px;
+    height: 50px;
+    border: none;
+    background: #0077C6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+
+.login-page {
+    background-color: linear-gradient(180deg, #72C6FF 0%, rgba(136, 167, 255, 0.801758) 46.78%, rgba(158, 135, 255, 0.601686) 100%, rgba(225, 39, 255, 0) 100%);
 }
